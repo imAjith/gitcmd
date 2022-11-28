@@ -1,0 +1,53 @@
+git add "filename",
+
+git status (for current status),
+
+git commit -m "message for keep tracking our changes",
+
+git log (for what commits we have),
+
+git add . (for all files),
+
+{
+
+There are three type of directory, they are [Working Directory, Staging Area(storing area), local repository].
+
+Working Directory 
+		|
+  git add
+	  |
+	Staging Area(which one files we want to keep and track that file are in staging area.)
+    |
+	git commit
+		|
+Local Repository (git hub)
+
+If we messed up our files in local Repository(git hub) git checkout to return the working Directory.
+
+git checkout "file name"
+
+for restoring data.
+
+
+
+From git :
+
+…or create a new repository on the command line
+
+
+echo "# gitcmd" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/imAjith/gitcmd.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+
+
+git remote add origin https://github.com/imAjith/gitcmd.git
+git branch -M main
+git push -u origin main
