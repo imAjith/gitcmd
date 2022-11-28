@@ -14,13 +14,18 @@ There are three type of directory, they are [Working Directory, Staging Area(sto
 
 Working Directory 
 		|
-  git add
+  	git add
 	  |
 	Staging Area(which one files we want to keep and track that file are in staging area.)
-    |
+   	 |
 	git commit
-		|
+	|
 Local Repository (git hub)
+	|
+	git push
+	|
+Remote Repository  
+
 
 If we messed up our files in local Repository(git hub) git checkout to return the working Directory.
 
